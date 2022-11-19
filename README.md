@@ -27,11 +27,8 @@ This project is splitted into modules. Each module vaguely represents a tool.
 
 ## Todo
 
-- Apply a formatter (.editorconfig)?
-- Automatically download Git repositories
-- SSH — How to save SSH keys?
-- Configure iTerm profiles
-- http://stratus3d.com/blog/2015/02/28/sync-iterm2-profile-with-dotfiles-repository/
+- Lint ZSH scripts
+- Download Git repositories
 - Write `backup.zsh` script to:
   - Save SSH keys
   - Save `kubectl` configuration files (~/.kube)
