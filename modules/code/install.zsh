@@ -9,19 +9,17 @@ source "${DOTFILES_PATH}"/src/*.zsh
 require "code"
 
 taskf "Install extensions"
-extensions=(
-  "bmewburn.vscode-intelephense-client"
-  "dbaeumer.vscode-eslint"
-  "EditorConfig.EditorConfig"
-  "esbenp.prettier-vscode"
-  "golang.Go"
-  "MS-vsliveshare.vsliveshare-pack"
-  "redhat.ansible"
-  "redhat.vscode-yaml"
-  "ryanolsonx.solarized"
+for extension in \
+  "bmewburn.vscode-intelephense-client" \
+  "dbaeumer.vscode-eslint" \
+  "EditorConfig.EditorConfig" \
+  "esbenp.prettier-vscode" \
+  "golang.Go" \
+  "MS-vsliveshare.vsliveshare-pack" \
+  "redhat.ansible" \
+  "redhat.vscode-yaml" \
+  "ryanolsonx.solarized" \
   "timonwong.shellcheck"
-)
-for extension in ${extensions}
 do
   code --install-extension "${extension}" || true # Ignore errors.
 done

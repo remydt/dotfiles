@@ -180,12 +180,12 @@
     }
   },
   "shortcuts": {
-    "almostMaximize": {
-      "keyCode": 3,
-      "modifierFlags": 786432
-    },
     "leftHalf": {
       "keyCode": 123,
+      "modifierFlags": 786432
+    },
+    "maximize": {
+      "keyCode": 3,
       "modifierFlags": 786432
     },
     "nextDisplay": {
