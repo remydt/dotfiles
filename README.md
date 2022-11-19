@@ -8,7 +8,7 @@ This project is inspired by [Nyalab](https://github.com/Nyalab/handles), [mathia
 - Perform the inital configuration until you can use the system.
 - [Install Dashlane](https://www.dashlane.com/download).
 - Download this repository.
-- Execute the [`run.zsh`](./run.zsh) script without arguement to configure the whole system.
+- Execute the [`run.zsh`](./run.zsh) script without arguments to configure the entire system.
 - Follow the ["Hardening macOS"](https://www.bejarano.io/hardening-macos/) guide. Some parameters are already set but others cannot be configured dynamically.
 
 ## Modules
