@@ -111,5 +111,5 @@ export PNPM_HOME="${HOME}/Library/pnpm"
 export PATH="${PATH}:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PATH="${PATH}:${HOME}/.krew/bin"
 export PATH="${PATH}:${HOME}/dev/loungeup/next/scripts" # TODO(remyduthu): Match subdirectories.
-export PATH="${PATH}:${HOME}/go/bin"
+export PATH="${PATH}:$(go env GOPATH)/bin"
 export PATH="${PATH}:${PNPM_HOME}"

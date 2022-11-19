@@ -2,6 +2,15 @@
 
 This project is inspired by [Nyalab](https://github.com/Nyalab/handles), [mathiasbynens](https://github.com/mathiasbynens/dotfiles/) and [paulirish](https://github.com/paulirish/dotfiles) dotfiles.
 
+## Procedure
+
+- [Install a fresh copy of macOS](https://support.apple.com/en-gb/HT212749).
+- Perform the inital configuration until you can use the system.
+- [Install Dashlane](https://www.dashlane.com/download).
+- Download this repository.
+- Execute the [`run.zsh`](./run.zsh) script without arguement to configure the whole system.
+- Follow the ["Hardening macOS"](https://www.bejarano.io/hardening-macos/) guide. Some parameters are already set but others cannot be configured dynamically.
+
 ## Modules
 
 This project is splitted into modules. Each module vaguely represents a tool.
